@@ -1,0 +1,16 @@
+# Firmware images & RAM dumps — NEVER publish.
+#  - *.bin update images are Panasonic copyright (all reference repos exclude them)
+#  - RAM dumps are this specific camera's memory (may contain its serial / calibration)
+*.bin
+*.zip
+G97__V13*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
